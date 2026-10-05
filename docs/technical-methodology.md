@@ -1,0 +1,3 @@
+# Technical methodology
+See README sections QUBO, Ising, QAOA, XY Mixer, Heavy-Hex. Conventions: qubit i = asset i; bitstrings printed with qubit 0 right-most (Qiskit order). Risk reported as sqrt(x^T Sigma x)/k for equal weights. Objective gap = objective(QAOA best sampled) - objective(exact optimum) >= 0. "Best sampled" = lowest-objective bitstring among shots; "most likely" = argmax probability. Both are shown.
+Reference run (NumPy core, default problem, seed 7): exact optimum JNJ+XOM+NEE (0.0826). p=1,2: most likely portfolio MSFT+JNJ+NEE; p=3: optimum is most likely with probability 0.369.

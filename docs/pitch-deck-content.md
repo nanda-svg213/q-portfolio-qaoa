@@ -1,0 +1,2 @@
+# Pitch deck content
+1 Problem: choose k of n assets, NP-hard. 2 Solution: QAOA workflow app. 3 Formulation: QUBO -> Ising. 4 QAOA + XY mixer: Dicke start, weight preserved. 5 Heavy-hex mapping: real transpile metrics. 6 Results: use the numbers shown in the app for the chosen seed. 7 Classical comparison: exact enumeration, gap, P(optimum), no speed-up claim. 8 Future work: Aer noise, IBM hardware, continuous weights.

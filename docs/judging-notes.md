@@ -1,0 +1,2 @@
+# Judging notes
+Track 2 items: constrained portfolio (cardinality k), XY mixer (implemented, weight preservation tested), heavy-hex routing (Qiskit transpile on a 19-qubit heavy-hex map, metrics counted). Honest scope: local simulation only; no hardware, no advantage claim; QAOA can miss the optimum and the UI shows it. Qiskit-dependent code paths are covered by tests that run when Qiskit is installed.
